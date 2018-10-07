@@ -1,0 +1,11 @@
+steps:
+
+# Do a yarn install
+- name: 'gcr.io/cloud-builders/yarn'
+  dir: 'service'
+  args: [ 'install' ]
+
+# Do a yarn test
+- name: 'gcr.io/cloud-builders/yarn'
+  dir: 'service'
+  args: [ 'test' ]
