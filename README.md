@@ -1,5 +1,6 @@
 # 🚆 Realtimetrains.co.uk API Client
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![codecov](https://codecov.io/gh/naxxfish/realtimetrains-api/branch/master/graph/badge.svg)](https://codecov.io/gh/naxxfish/realtimetrains-api)
+[![david](https://david-dm.org/naxxfish/realtimetrains-api.svg)](https://david-dm.org/naxxfish/realtimetrains-api.svg)
 
 This module allows you to use the API from [Realtimetrains.co.uk](https://realtimetrains.co.uk), which provides access to rail information across the Great British rail network.
 
