@@ -6,4 +6,4 @@ steps:
 
 # Do a yarn test
 - name: 'gcr.io/cloud-builders/npm'
-  args: [ 'test-ci' ]
+  args: [ 'run', 'test-ci' ]
