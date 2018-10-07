@@ -20,7 +20,7 @@ Simply install the module
 The API is Promises based and, in fact, is a thin wrapper over some Axios requests.  
 
 ```
-var RealtimetrainsClient = require('./main')
+var RealtimetrainsClient = require('realtimetrains')
 
 var rttClient = new RealtimetrainsClient({})
 rttClient.getLocationList({ 'station': 'CHX' }).then((locationList) => {
