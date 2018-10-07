@@ -1,28 +1,38 @@
 {
   "author": "Chris Roberts <chris@naxxfish.eu> (http://naxxfish.net/)",
-  "name": "realtimetrains-api",
-  "description": "A Node.js module to interface with the Realtimetrains.co.uk API",
+  "name": "realtimetrains",
+  "description": "A module to query the Realtimetrains.co.uk Pull API",
   "version": "1.0.0",
   "license": "Apache-2.0",
+  "engines": {
+    "node": ">=6.11.1"
+  },
+  "homepage": "https://github.com/naxxfish/realtimetrains-api",
   "repository": {
     "type": "git",
     "url": "https://github.com/naxxfish/realtimetrains-api.git"
   },
+  "bugs": {
+    "url": "https://github.com/naxxfish/realtimetrains-api/issues"
+  },
   "keywords": "rtt realtimetrains",
-  "main": "client.js",
+  "main": "main.js",
   "scripts": {
-    "test": "standard && jest --coverage",
+    "test": "standard && jest --coverage && codecov",
     "doc": "jsdoc ./lib/*.js -d doc"
   },
   "devDependencies": {
     "axios-mock-adapter": "^1.15.0",
+    "codecov": "^3.1.0",
     "jest": "^23.6.0",
-    "jsdoc": "^3.5.5",
-    "sinon": "^6.3.4",
     "standard": "^12.0.1"
   },
   "dependencies": {
     "axios": "^0.18.0"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   },
   "standard": {
     "env": [
