@@ -19,6 +19,7 @@
   "main": "main.js",
   "scripts": {
     "test": "standard && jest --coverage && codecov",
+    "test-ci": "standard && jest --coverage",
     "doc": "jsdoc ./lib/*.js -d doc"
   },
   "devDependencies": {
