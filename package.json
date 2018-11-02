@@ -2,7 +2,7 @@
   "author": "Chris Roberts <chris@naxxfish.eu> (http://naxxfish.net/)",
   "name": "realtimetrains",
   "description": "A module to query the Realtimetrains.co.uk Pull API",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "Apache-2.0",
   "engines": {
     "node": ">=6.11.1"
