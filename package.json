@@ -15,7 +15,10 @@
   "bugs": {
     "url": "https://github.com/naxxfish/realtimetrains-api/issues"
   },
-  "keywords": "rtt realtimetrains",
+  "keywords": [
+    "rtt",
+    "realtimetrains"
+  ],
   "main": "main.js",
   "scripts": {
     "test": "standard && jest --coverage && codecov",
